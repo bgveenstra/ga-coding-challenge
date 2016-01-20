@@ -3,13 +3,15 @@
 GA is designing a new site aimed at K-12 learners to access some GA courses and content. Use CSS, HTML, and JavaScript to develop a responsive navbar for this site with login/logout.
 
 
+## Some of our most successful candidates...
+
 **Communicate with potential employers using appropriate technical terms.**   
 
-  - Makes a *responsive* site (looks different - and good! - on different screen sizes). 
+  - Make a *responsive* site (one that looks different - and good! - on different screen sizes). 
   
-  - Implements something that is identifiably a *navbar*. 
+  - Implement something that is identifiably a *navbar*. 
   
-  - Includes at least one *breakpoint* where the layout changes.
+  - Include at least one *breakpoint* where the layout changes.
 
 
 
@@ -17,16 +19,17 @@ GA is designing a new site aimed at K-12 learners to access some GA courses and 
 **Demonstrate knowledge of software construction patterns and best practices.**
 
 
-  - Adds comments to the code that help navigate and explain any less clear portions.   
+  - Add comments to the code that help navigate and that explain any less clear portions.   
 
-  - Encapsulates login/logout bonus button feature in a function so that if a backend is added the changes required are limited to one area.
+  - Encapsulate login/logout bonus button feature in a function so that if a backend is added the changes required are limited to one area.
 
-  - Uses consistent code style for HTML, CSS, and JavaScript documents.
+  - Use consistent code style for HTML, CSS, and JavaScript documents.
   
-  - If using a fuller front-end framework like Angular, follows conventions of that framework.
+  - If using a fuller front-end framework like Angular, follow conventions of that framework.
 
 
-  - Includes a CSS file, linked properly in the head of the html document. 
+  - Include a CSS file and link it properly in the head of the html document. 
+  
 
 
 
@@ -50,10 +53,10 @@ GA is designing a new site aimed at K-12 learners to access some GA courses and 
 
 **Demonstrate awareness of real-world technical development practices and concerns related to the target company, including testing and security.**  
 
-  - Describes basic user stories: what should users be able to do with this navbar?  
+  - Bonus: Describes basic user stories; that is, what should users be able to do with this navbar?  
 
   - If using a framework like Bootstrap, adds custom CSS to distinguish this site from others using the framework.   
 
-  - References existing GA site design and documents reasons for differing from the look and feel of existing GA sites.  
+  - Reference existing GA site design and document reasons for differing from the look and feel of existing GA sites.  
 
-  - Mentions the fact that some of the site's users will be children, and/or discusses design elements to reflect this.  
+  - Mention the fact that some of the site's users will be children, and/or discuss design elements to reflect this.  
