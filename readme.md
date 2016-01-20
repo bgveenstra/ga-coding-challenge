@@ -8,8 +8,8 @@ You have until 4:00pm today to submit your work.  All submissions should include
 
 ## Front-End 
 
-[Front-end challenge](front-end/readme.md): Build a responsive navbar with login/logout.
+[Front-end challenge](front-end): Build a responsive navbar with login/logout.
 
 ## Back-End
 
-[Back-end challenge](back-end/readme.md): Build a RESTful API for conference talks and attendees.
+[Back-end challenge](back-end): Build a RESTful API for conference talks and attendees.
