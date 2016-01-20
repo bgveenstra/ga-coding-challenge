@@ -3,64 +3,57 @@
 GACon is looking for someone to design a RESTful API for data for talks at a conference and attendees. Some sample data is included in data.json.
 
 
+## Some of our most successful candidates...
+
+
 **Communicate using appropriate technical terms.**   
 
+  - Demonstrate knowledge of *RESTful* conventions
 
-An ideal candidate:
+  - Create the specified API routes/endpoints (knows what *API* and *route* mean) **and** list the endpoints in documentation.
 
-  - demonstrates knowledge of RESTful conventions
-
-  - creates the specified API routes (knows what "API" and "route" mean)
-
-  - creates RESTful routes of the form:
-
-  	- POST baseurl/talksto add a talk  
-  	- POST baseurl/attendees to add an attendee  
-  	- POST baseurl/talks/:talk_id/attendees to add an attendee to a talk (or PUT baseurl/talks/:talk_id/attendees/:attendee_id)  
 
 
 
 
 **Demonstrate knowledge of software construction patterns and best practices.**
 
-
-An ideal candidate:
-
-  - includes helpful comments within code
-
-  - documents the project in a readme, including instructions for installing and running the code.
-
-  - uses version control (preferably git and/or GitHub) with commits that are:  
+  - Use version control (preferably git and/or GitHub) with commits that are:  
     - frequent   
     - self-contained units  
     - accompanied by helpful commit messages  
 
-  - bonus: includes a route to remove an attendee from a talk
+  - Create RESTful routes of the form:
 
-  	- DELETE baseurl/talks/:talk_id/attendees/:attendee_id or 
+  	- POST baseurl/talksto add a talk  
+  	- POST baseurl/attendees to add an attendee  
+  	- POST baseurl/talks/:talk_id/attendees to add an attendee to a talk (or PUT baseurl/talks/:talk_id/attendees/:attendee_id)  
 
-  - bonus: includes routes to display the data as well
+  - Bonus: include a route to remove an attendee from a talk, probably:
+
+  	- DELETE baseurl/talks/:talk_id/attendees/:attendee_id  
+
+  - Bonus: include routes to display the data as well, for testing purposes
 
   	- GET baseurl/talks to see all talks  
   	- GET baseurl/attendees to see all attendees  
   	- GET baseurl/talks/:talk_id/attendees to see list of attendees at that talk  
 
-  - mindfully chooses which REST conventions to follow and which not to (aware of HATEOS)  
+  - Bonus: Describe the REST conventions he or she is following, possibly demonstrating awareness of pure REST (HATEOS, HTTP status codes).
 
 **Consider design and implementation alternatives and make decisions based on relevant characteristics of the problem and available tools.**
 
-An ideal candidate:
+  - Describe the back-end framework or technologies used and lists a benefit or benefits of the technology chosen. 
+  
+  - Decide how to host and display the API  and document this decision.
 
-  - describes the back-end framework or technologies used  
-
-  - lists at least one beneift of the technologies chosen  
-
-  - makes a decision about whether attendees must be added to talks and stays consistent (for instance, if an attendee must be associated with a talk, destroy all attendees when a talk is deleted)  
+  - Decide whether attendees must be added to talks and stay consistent (for instance, if an attendee must be associated with a talk, destroy all attendees when a talk is deleted). Bonus: document this decision.
+  
+  - Either create a database or document that a database would be used in a real-world scenario.
 
 **Demonstrate awareness of real-world technical development practices and concerns related to the target company, including testing and security.**
 
-An ideal candidate:
+  - Test the API before submitting, and describe the testing process.
 
-  - tests their API before submitting, and describes the testing process
-
-  - 
+  - Connect the coding challenge to GACon by mentioning attendee privacy, accuracy of timestamps for users from various timezones, or some other thoughtful feature.
+  
