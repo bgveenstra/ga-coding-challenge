@@ -10,7 +10,7 @@ GACon is looking for someone to design a RESTful API for data for talks at a con
 
   - Demonstrate knowledge of *RESTful* conventions
 
-  - Create the specified API routes/endpoints (knows what *API* and *route* mean) **and** list the endpoints in documentation.
+  - Create the specified API routes/endpoints (know what *API* and *route* mean) **and** list the endpoints in documentation.
 
 
 
@@ -30,19 +30,19 @@ GACon is looking for someone to design a RESTful API for data for talks at a con
 
   	- DELETE baseurl/talks/:talk_id/attendees/:attendee_id  
 
-  - Bonus: include routes to display the data as well, for testing purposes
+  - Bonus: include routes to display the data as well, mostly for testing purposes
 
   	- GET baseurl/talks to see all talks  
   	- GET baseurl/attendees to see all attendees  
   	- GET baseurl/talks/:talk_id/attendees to see list of attendees at that talk  
 
-  - Bonus: Describe the REST conventions he or she is following, possibly demonstrating awareness of pure REST (HATEOS, HTTP status codes).
+  - Bonus: Describe the REST conventions, and further bonus demonstrate awareness of pure REST (HATEOS, HTTP status codes).
 
 **Consider design and implementation alternatives and make decisions based on relevant characteristics of the problem and available tools.**
 
-  - Describe the back-end framework or technologies used and lists a benefit or benefits of the technology chosen. 
+  - Describe the back-end framework or technologies used and list a benefit or benefits of the technology chosen. 
   
-  - Decide how to host and display the API  and document this decision.
+  - Decide how to host and display the API and document this decision.
 
   - Decide whether attendees must be added to talks and stay consistent (for instance, if an attendee must be associated with a talk, destroy all attendees when a talk is deleted). Bonus: document this decision.
   
@@ -51,7 +51,7 @@ GACon is looking for someone to design a RESTful API for data for talks at a con
 **Demonstrate awareness of real-world technical development practices and of concerns related to the target company, including testing and security.**
 
 
-  - Follow the format of data provided in data.json. (Bonus: read or load data from data.json programmatically).
+  - Follow the format of data provided in data.json. Data may be added but no fields should be removed, especially without reasons in the documentation. (Bonus: read or load data from data.json programmatically).
   
   - Test the API before submitting, and describe the testing process.
 
