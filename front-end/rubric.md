@@ -5,56 +5,55 @@ GA is designing a new site aimed at K-12 learners to access some GA courses and 
 
 **Communicate with potential employers using appropriate technical terms.**   
 
-The candidate should:
+  - Makes a *responsive* site (looks different - and good! - on different screen sizes). 
+  
+  - Implements something that is identifiably a *navbar*. 
+  
+  - Includes at least one *breakpoint* where the layout changes.
 
-  - have a *responsive* site (it should look different - and good! - on different screen sizes).
-
-  - use a separate CSS file, linked properly in the head of the html document. 
-
-  - understand "navbar" and implement something that is identifiably a navbar. 
 
 
 
 **Demonstrate knowledge of software construction patterns and best practices.**
 
-An ideal candidate should:
 
-  - add comments to the code that help navigate and explain any less clear portions.   
+  - Adds comments to the code that help navigate and explain any less clear portions.   
 
-  - encapsulate login/logout bonus button feature in a function.   
+  - Encapsulates login/logout bonus button feature in a function so that if a backend is added the changes required are limited to one area.
 
-  - use consistent code style for html, css, and javascript documents.
-
-
+  - Uses consistent code style for HTML, CSS, and JavaScript documents.
   
+  - If using a fuller front-end framework like Angular, follows conventions of that framework.
+
+
+  - Includes a CSS file, linked properly in the head of the html document. 
+
+
 
 **Consider design and implementation alternatives and make decisions based on relevant characteristics of the problem and available tools.**
 
 
-An ideal candidate should:
+  - Consciously choose to use a front-end framework or library (or not) and document reasons for making that choice.   
 
-  - consciously choose to use a front-end framework or library (or not) and give reasons for making that choice.   
+  - If using a framework:  
 
-  - if using a framework, follow conventions of that framework (very important: proper use of grid system).   
+    - follow conventions of that framework (very important: proper use of grid system).  
+    
+    - use the correct components from that framework (e.g.: Bootstrap's navbar, perhaps navbar-collapse).  
 
-  - if using a framework, use the correct components from that framework (e.g.: Bootstrap's navbar-responsive).  
+  - If not using a framework, use media queries to create responsive effect, and justify choice of breakpoint.   
 
-  - if not using a framework, use media queries to create responsive effect, and justify choice of breakpoint.   
-
-  - create a page that looks reasoanble without JavaScript loaded (bonus - "progressive enhancement").
+  - Bonus: create a page that looks reasonable without JavaScript loaded ("progressive enhancement").
 
 
 
 
 **Demonstrate awareness of real-world technical development practices and concerns related to the target company, including testing and security.**  
 
-An ideal candidate:
+  - Describes basic user stories: what should users be able to do with this navbar?  
 
- - references existing GA site design and documents reasons for differing from the look and feel of existing GA sites.  
+  - If using a framework like Bootstrap, adds custom CSS to distinguish this site from others using the framework.   
 
- - describes basic user stories: what should users be able to do with this navbar?  
+  - References existing GA site design and documents reasons for differing from the look and feel of existing GA sites.  
 
- - acknowledges the fact that some of the site's users will be children, and adds design elements to reflect this.  
-
-  - if using a framework, adds custom CSS to distinguish this site from others using the framework.   
-
+  - Mentions the fact that some of the site's users will be children, and/or discusses design elements to reflect this.  
