@@ -17,11 +17,8 @@ GACon is looking for someone to design a RESTful API for data for talks at a con
 
 
 **Demonstrate knowledge of software construction patterns and best practices.**
-
-  - Use version control (preferably git and/or GitHub) with commits that are:  
-    - frequent   
-    - self-contained units  
-    - accompanied by helpful commit messages  
+  
+  - Use object oriented programming to create data structures mirroring talks and attendees. 
 
   - Create RESTful routes of the form:
 
@@ -51,8 +48,11 @@ GACon is looking for someone to design a RESTful API for data for talks at a con
   
   - Either create a database or document that a database would be used in a real-world scenario.
 
-**Demonstrate awareness of real-world technical development practices and concerns related to the target company, including testing and security.**
+**Demonstrate awareness of real-world technical development practices and of concerns related to the target company, including testing and security.**
 
+
+  - Follow the format of data provided in data.json. (Bonus: read or load data from data.json programmatically).
+  
   - Test the API before submitting, and describe the testing process.
 
   - Connect the coding challenge to GACon by mentioning attendee privacy, accuracy of timestamps for users from various timezones, or some other thoughtful feature.
